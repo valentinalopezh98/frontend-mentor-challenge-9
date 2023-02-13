@@ -147,3 +147,16 @@ main {
     color: var(--light-gray);
     line-height: 22px;
 }
+
+@media (min-width: 1440px) {
+    .price-grid {
+        width: 650px;
+    }
+
+    .price-grid-top {
+        padding: 40px 30px;
+    }
+    .price-grid-bottom {
+        flex-direction: row;
+    }
+}
